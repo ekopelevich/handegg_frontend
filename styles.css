@@ -3,3 +3,9 @@ body {
   color: #fff;
   font-family: sans-serif;
 }
+
+label, input {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px;
+}

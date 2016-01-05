@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Handegg for the Masses</title>
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    <h2>Register here:</h2>
+    <form class="register" action="localhost:3000" method="post">
+      <label for="username">Username</label>
+      <input type="text" name="username">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+      <label for="password2">Password Again</label>
+      <input type="password" name="password2">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <h2>Already registered? Login here:</h2>
+    <form class="login" action="localhost:3000" method="post">
+      <label for="username">Username</label>
+      <input type="text" name="username">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+      <label for="password2">Password Again</label>
+      <input type="password" name="password2">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
